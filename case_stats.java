@@ -11,12 +11,11 @@ public class case_stats {
 
         try {
 	        input = Integer.parseInt(sc.nextLine());   
+            System.out.println(cost(input) + "\n" + open_cases(input));
         }
         catch (NumberFormatException ex){
             System.out.println("Must be a valid number!");
         }
-        
-        System.out.println(cost(input) + "\n" + open_cases(input));
     }
 
 
